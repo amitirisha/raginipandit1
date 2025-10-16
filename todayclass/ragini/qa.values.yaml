@@ -1,0 +1,3 @@
+
+deploymentName: qa-deploymnet
+replicasetcount: 5

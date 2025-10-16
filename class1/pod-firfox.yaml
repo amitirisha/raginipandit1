@@ -1,0 +1,21 @@
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: fireji
+  namespace: default
+  labels:
+    type: kingfisher
+spec:
+  containers:
+  - image: linuxserver/firefox
+    name: firefox-container
+    resources:
+      requests:
+        memory: "1Gi"
+        cpu: "250m"
+      limits:
+        memory: "2Gi"
+        cpu: "500m"
+    ports:
+    - containerPort: 3000    

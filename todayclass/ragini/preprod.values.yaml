@@ -1,0 +1,3 @@
+
+deploymentName: preprod-deploymnet
+replicasetcount: 5

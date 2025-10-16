@@ -1,0 +1,3 @@
+
+deploymentName: dev-deploymnet
+replicasetcount: 2
